@@ -1,0 +1,21 @@
+{
+    "name": "gremo/ciconia-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony 2 bundle for Ciconia Markdown parser for PHP",
+    "keywords": ["markdown", "parser", "cli"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Polichetti",
+            "email": "gremo1982@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">5.4.0",
+        "symfony/framework-bundle": "~2.3",
+        "kzykhys/ciconia": "~1.0"
+    },
+    "autoload": {
+        "psr-4": { "Gremo\\CiconiaBundle\\": "" }
+    }
+}
