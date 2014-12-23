@@ -10,9 +10,10 @@
 
         <service id="ciconia.renderer.html" class="Ciconia\Renderer\HtmlRenderer" public="false" />
         <service id="ciconia.renderer.xhtml" class="Ciconia\Renderer\XhtmlRenderer" public="false" />
-        
+
         <service id="ciconia.twig.extension" class="Gremo\CiconiaBundle\Twig\CiconiaExtension">
             <argument type="service" id="ciconia"/>
+            <tag name="twig.extension"/>
         </service>
     </services>
 </container>
