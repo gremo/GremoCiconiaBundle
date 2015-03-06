@@ -1,6 +1,6 @@
-[![Dependencies Status](https://depending.in/gremo/CiconiaBundle.png)](http://depending.in/gremo/CiconiaBundle)
-
 # CiconiaBundle
+[![Latest stable](https://img.shields.io/packagist/v/gremo/ciconia-bundle.svg?style=flat-square)](https://packagist.org/packages/gremo/ciconia-bundle) [![Downloads total](https://img.shields.io/packagist/dt/gremo/ciconia-bundle.svg?style=flat-square)](https://packagist.org/packages/gremo/ciconia-bundle)
+
 Symfony 2 bundle for Ciconia Markdown parser for PHP.
 
 ## Installation
@@ -66,6 +66,7 @@ $html = $ciconia->render('Markdown is **awesome**');
 ```
 
 Or in twig template:
+
 ```twig
 {{ var|markdown }}
 ```
