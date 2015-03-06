@@ -15,6 +15,12 @@
         "symfony/framework-bundle": "~2.3",
         "kzykhys/ciconia": "~1.0"
     },
+    "require-dev": {
+        "twig/twig": "~1.10"
+    },
+    "suggest": {
+        "twig/twig": ""
+    },
     "autoload": {
         "psr-4": { "Gremo\\CiconiaBundle\\": "" }
     }

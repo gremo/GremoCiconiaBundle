@@ -56,7 +56,6 @@ gremo_ciconia:
 Get the `ciconia` service from the service container:
 
 ```php
-
 /** @var \Ciconia\Ciconia $ciconia */
 $ciconia = $container->get('ciconia');
 
@@ -65,5 +64,11 @@ $html = $ciconia->render('Markdown is **awesome**');
 
 // <p>Markdown is <em>awesome</em></p>
 ```
+
+Or in twig template:
+```twig
+{{ var|markdown }}
+```
+
 ## Dependency Injection Tags
 Give the service a tag named `ciconia.extension` to automatically registered it as an extension.
