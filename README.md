@@ -10,7 +10,7 @@ Add the bundle in your `composer.json` file:
 ```js
 {
     "require": {
-        "gremo/ciconia-bundle": "dev-master"
+        "gremo/ciconia-bundle": "~1.0"
     }
 }
 ```
