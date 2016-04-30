@@ -1,7 +1,7 @@
 # CiconiaBundle
 [![Latest stable](https://img.shields.io/packagist/v/gremo/ciconia-bundle.svg?style=flat-square)](https://packagist.org/packages/gremo/ciconia-bundle) [![Downloads total](https://img.shields.io/packagist/dt/gremo/ciconia-bundle.svg?style=flat-square)](https://packagist.org/packages/gremo/ciconia-bundle)
 
-Symfony 2 bundle for Ciconia Markdown parser for PHP.
+Symfony bundle for Ciconia Markdown parser for PHP.
 
 ## Installation
 Add the bundle in your `composer.json` file:
