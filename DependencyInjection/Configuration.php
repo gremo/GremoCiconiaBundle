@@ -31,13 +31,17 @@ class Configuration implements ConfigurationInterface
                     ->defaultNull()
                     ->validate()
                         ->ifNotInArray(array(null, 'html', 'xhtml'))
-                            ->thenInvalid('Unrecognized renderer "%s", allowed: '.json_encode([null, 'html', 'xhtml']).'.')
+                            ->thenInvalid(
+                                'Unrecognized renderer "%s", allowed: '.json_encode([null, 'html', 'xhtml']).'.'
+                            )
                     ->end()
                 ->end()
                 ->arrayNode('extensions')
                     ->treatFalseLike([])
                     ->beforeNormalization()
-                        ->ifTrue(function ($v) { return null === $v || true === $v; })
+                        ->ifTrue(function ($v) {
+                            return null === $v || true === $v;
+                        })
                         ->then(function ($v) {
                             $v = [];
                             foreach (glob(__DIR__.'/../Resources/config/extensions/*.xml') as $pathname) {
