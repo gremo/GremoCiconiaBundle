@@ -1,4 +1,4 @@
-# CiconiaBundle
+# GremoCiconiaBundle
 [![Latest stable](https://img.shields.io/packagist/v/gremo/ciconia-bundle.svg?style=flat-square)](https://packagist.org/packages/gremo/ciconia-bundle) [![Downloads total](https://img.shields.io/packagist/dt/gremo/ciconia-bundle.svg?style=flat-square)](https://packagist.org/packages/gremo/ciconia-bundle) [![GitHub issues](https://img.shields.io/github/issues/gremo/CiconiaBundle.svg?style=flat-square)](https://github.com/gremo/CiconiaBundle/issues)
 
 Symfony bundle for Ciconia Markdown parser for PHP.
